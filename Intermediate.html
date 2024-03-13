@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title>Number Guessing</title>
+</head>
+<body>
+  <audio autoplay  loop>
+    <source src="intermediate.mp3" type="audio/mp3">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <button class="play-music">Play Game Music</button>
+
+  <div class="game-container">
+    <h2 class="heading">Play Game</h2>
+
+    <div class="head-container">
+      <div class="metric-header">
+        <h3 class="high-heading">Highscore</h3>
+        <p class="highscore">0</p>
+      </div>
+      <div class="metric-header">
+        <p class="number">?</p>
+      </div>
+      <div class="metric-header">
+        <h3 class="attempt-heading">Attempt</h3>
+        <p class="attempt">10</p>
+      </div>
+    </div>
+
+    <div class="input-con">
+      <h3>️ Input number from 1 to 50 ️</h3>
+      <input class="guess" type="number">
+      <button class="play">Guess</button>
+    </div>
+
+    <div>
+      <button class="reset">Reset</button>
+      <button class="continue">Continue</button>
+    </div>
+  </div>
+
+  <script src="intermediate.js"></script>
+</body>
+</html>

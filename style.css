@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(28, 27, 27);
+    font-family: "Press Start 2P", cursive;
+  }
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 20px;
+  }
+  .head-container {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+  }
+  .heading {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+  }
+  .high-heading,
+  .attempt-heading {
+    color: white;
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+  .highscore,
+  .attempt {
+    padding: 20px 50px;
+    background-color: white;
+  }
+  .metric-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  .number {
+    padding: 60px 60px;
+    background-color: white;
+    font-size: 50px;
+  }
+  .input-con h3 {
+    color: white;
+    font-size: 14px;
+  }
+  
+  
+  input[type="number"] {
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 0;
+  }
+  
+  button {
+    padding: 12px 20px;
+    font-family: "Press Start 2P", cursive;
+    text-transform: uppercase;
+  }
+  
+  .mode-container{
+    color: beige;
+    text-align: center;
+  }
+  
+  .mode-container{
+      padding: 100px;
+  }
+  
+  .play{
+    margin : -7px;
+    text-align: center;
+    height: 50px;
+  }
+  .countdown{
+    color: aliceblue;
+  }

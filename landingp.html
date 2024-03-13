@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        .game-container {
+            text-align: center;
+        }
+
+        .heading {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 36px;
+            animation: pulsate 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes pulsate {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.1);
+            }
+        }
+
+        .mode-buttons a {
+            display: inline-block;
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+
+        .mode-buttons .beginner:hover {
+            background-color: green;
+            transform: translateY(-5px);
+        }
+        .mode-buttons .intermediate:hover {
+            background-color: blue;
+            transform: translateY(-5px);
+        }
+        .mode-buttons .expert:hover {
+            background-color: red;
+            transform: translateY(-5px);
+        }
+        .mode-buttons .leaderboard:hover {
+            background-color: peru;
+            transform: translateY(-5px);
+        }
+
+        .mode-buttons .leaderboard{
+            padding: 20px;
+            background-color: purple;
+        }
+    </style>
+    <title>Landing Page</title>
+</head>
+<body>
+    <div class="game-container">
+        <h1 class="heading">Number Guessing Game</h1>
+        <div class="mode-container">
+            <h3 class="sm">SELECT MODE</h3>
+        </div>
+        <div class="mode-buttons">
+            <a href="beginner.html" class="beginner">BEGINNER</a>
+            <a href="Intermediate.html" class="intermediate">INTERMEDIATE</a>
+            <a href="expert.html" class="expert">EXPERT</a>
+        </div>
+        <div class="mode-buttons">
+            <a href="LeaderBoard.html" class="leaderboard">LEADERBOARD</a>
+        </div>
+    </div>
+</body>
+</html>
